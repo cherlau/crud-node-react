@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Diretórios de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de PID de processo
+*.pid
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências e build
+dist/
+build/
+
+# Arquivos de banco de dados
+*.sqlite
+*.db
+
+# Configuração do ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de dependência e lock
+package-lock.json
+yarn.lock
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Arquivos de testes
+coverage/
+
+# Arquivos do MySQL (se for o caso de backup ou dumps)
+*.sql
+*.sql.gz
